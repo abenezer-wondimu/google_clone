@@ -151,6 +151,7 @@ input[type="search"] {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 700px) {
@@ -158,6 +159,10 @@ input[type="search"] {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    flex-wrap: wrap;
+  }
+  .hide-me {
+    visibility: hidden;
   }
 }
 .end-footer a {
