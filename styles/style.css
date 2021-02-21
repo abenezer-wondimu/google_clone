@@ -150,12 +150,14 @@ input[type="search"] {
   .end-footer {
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
   }
 }
 @media (max-width: 700px) {
   .end-footer {
     justify-content: center;
     align-items: center;
+    flex-shrink: 0;
   }
 }
 .end-footer a {
